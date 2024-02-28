@@ -4,12 +4,77 @@
         <meta charset="UTF-8">
         <meta name="Viewport" content="width = device-width, initial scale=1.0">
         <title>Image Links</title>
+        <style>
+             header {
+            background-color: cornsilk;
+            color: gray;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: transparent;
+            padding: 10px 0;
+            text-align: center;
+            }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            transition: 0.5s;
+        }
+
+        nav ul li a:hover {
+            color: cyan;
+        }
+
+       
+
+        footer {
+            background-color: transparent;
+            color: red;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+            
+            img{
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                transition: 0.5s;
+
+            }
+            img:hover{
+                width: 300px;
+                height: 300px;
+            }
+            .food{
+                justify-content: space-between;
+                align-items: center;
+            }
+
+        </style>
     </head>
     <body>
        
     <header>
         <h1>Welcome to our Image Links Page!</h1>
     </header>
+    <section class="header">
 
     <nav>
         <ul>
@@ -18,29 +83,33 @@
             <li><a href="#menu">Menu</a></li>
         </ul>
     </nav>
+    </section>
 
     <section id="home">
         <h2>Home</h2>
-        <p>Welcome to our website! Check out this image related to technology:</p>
-        <a href="https://example.com/technology"><img src="technology_image.jpg" alt="Technology Image"></a>
+        <p>Welcome to my website. A pool of interactivity and proof of attentiveness in Class</p>
+        <a href="https://www.mayoclinic.org/"><img src="IMAGES/Doc.jpg" alt="Doctor's image"></a>
+        
     </section>
 
     <section id="gallery">
         <h2>Gallery</h2>
         <div class="grid">
-            <a href="https://example.com/nature1"><img src="nature_image1.jpg" alt="Nature Image 1"></a>
-            <a href="https://example.com/nature2"><img src="nature_image2.jpg" alt="Nature Image 2"></a>
-            <a href="https://example.com/nature3"><img src="nature_image3.jpg" alt="Nature Image 3"></a>
+            <a href="https://www.youtube.com/watch?v=zODll_ablUQ&ab_channel=NM2255%7CRawCarSounds"><img src="IMAGES/Engine 1.jpg" alt="A cool engine make"></a>
+            <a href="https://en.wikipedia.org/wiki/V8_engine"><img src="IMAGES/Engine 2.jpg" alt="A piston in engine"></a>
+            <a href="https://www.kia.com/dm/discover-kia/ask/what-is-the-difference-between-a-v6-and-a-v8-engine.html"><img src="IMAGES/Engine 3.jpg" alt="Side engine"></a>
         </div>
     </section>
 
     <section id="menu">
         <h2>Menu</h2>
+        <div class="Food">
         <ul>
-            <li><a href="https://example.com/food1"><img src="food_image1.jpg" alt="Food Image 1"> Food Item 1</a></li>
-            <li><a href="https://example.com/food2"><img src="food_image2.jpg" alt="Food Image 2"> Food Item 2</a></li>
-            <li><a href="https://example.com/food3"><img src="food_image3.jpg" alt="Food Image 3"> Food Item 3</a></li>
+            <li><a href="https://www.fifteenspatulas.com/homemade-sushi/"><img src="IMAGES/Sushi.jpg" alt="Sushi"> </a></li>
+            <li><a href="https://www.indianhealthyrecipes.com/pizza-recipe-make-pizza/"><img src="IMAGES/Pizza.jpg" alt="Pizza"> </a></li>
+            <li><a href="https://atkfamily.com/10-simple-tips-to-make-food-taste-better/"></a><img src="IMAGES/Food 1.jpg" alt="Sumptous"> </a></li>
         </ul>
+        </div>
     </section>
 
     <footer>
@@ -49,3 +118,6 @@
 </body>
 
 </html>
+
+   
+        
